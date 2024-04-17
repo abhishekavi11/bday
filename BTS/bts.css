@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #e6e0e0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .video-container {
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+  }
+  
+  #bts-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Page</title>
+    <style>
+        body {
+            background-color: #121212; /* Dark background color */
+            color: #ece6e6; /* Light text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        video {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 20px auto;
+        }
+        @keyframes blink-animation {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .blinking {
+            animation: blink-animation 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="blinking" style="border: 1px solid red; display: inline-flex; border-radius: 5px;">ENJOY SOME BTS</h1>
+        <video autoplay controls>
+            <source src="btss.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
